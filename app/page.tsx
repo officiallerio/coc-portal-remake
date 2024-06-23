@@ -10,8 +10,8 @@ import PlusOTP from "@/components/InputOTP";
 export default function IndexPage() {
   return (
     <>
-      <div className="flex h-screen w-screen overflow-hidden bg-[#155F37]">
-        <div className="flex h-full w-full flex-col gap-4 overflow-y-auto lg:grid lg:grid-cols-2 lg:gap-0">
+      <div className="flex h-full flex-col bg-primary">
+        <div className="flex h-full w-full flex-col gap-4 lg:grid lg:grid-cols-2 lg:gap-0">
           <div className="relative flex h-full flex-col">
             <Image
               src="images/ribbon.svg"
