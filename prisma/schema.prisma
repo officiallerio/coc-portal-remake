@@ -1,0 +1,17 @@
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model tbl_users {
+  id             String @id @default(cuid())
+  user_fullname  String @db.VarChar(191)
+  user_studentId String @unique @db.VarChar(191)
+  user_password  String @db.VarChar(191)
+
+  createdAt DateTime @default(now())
+}
