@@ -1,0 +1,26 @@
+{
+  "discord.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.fontSize": 13,
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "files.autoSave": "onWindowChange",
+  "editor.renderWhitespace": "selection",
+  "animations.CursorAnimation": false,
+  "animations.Auto-Install": true,
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.comments.ignoreEmptyLines": true,
+  "editor.detectIndentation": false,
+  "editor.indentSize": "tabSize",
+  "editor.wordWrapColumn": 80,
+  "prettier.bracketSameLine": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
