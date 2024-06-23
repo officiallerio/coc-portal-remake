@@ -74,6 +74,6 @@
     @apply border-border;
   }
   body {
-    @apply bg-background font-outfit text-foreground;
+    @apply overflow-hidden bg-background font-outfit text-foreground;
   }
 }
