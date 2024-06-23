@@ -10,7 +10,7 @@ import PlusOTP from "@/components/InputOTP";
 export default function IndexPage() {
   return (
     <>
-      <div className="flex h-screen flex-col bg-[#155F37] lg:grid lg:grid-cols-2">
+      <div className="flex h-screen flex-col gap-4 overflow-y-auto bg-[#155F37] lg:grid lg:grid-cols-2 lg:gap-0">
         <div className="relative h-full">
           <Image
             src="images/ribbon.svg"
@@ -28,7 +28,7 @@ export default function IndexPage() {
               className="h-[175px] w-[175px] lg:h-[225px] lg:w-[225px]"
             />
             <div className="flex flex-col items-center justify-center gap-2">
-              <h1 className="text-4xl font-semibold text-white">
+              <h1 className="text-2xl font-semibold text-white md:text-4xl">
                 Cagayan De Oro College
               </h1>
               <h3 className="text-center text-sm font-thin text-white lg:text-lg">
@@ -38,14 +38,14 @@ export default function IndexPage() {
             </div>
           </div>
         </div>
-        <div className="flex h-full w-full flex-col items-center justify-center gap-[30px] rounded-t-[50px] bg-white p-10 lg:rounded-l-[50px]">
+        <div className="flex h-full w-full flex-col items-center justify-center gap-[30px] rounded-t-[50px] bg-white p-10 lg:rounded-l-[50px] lg:rounded-t-[0px] lg:rounded-tl-[50px]">
           <Image
             src="images/phinma-logo.svg"
             alt="PHINMA LOGO"
             height={410}
             width={410}
           />
-          <div className="flex w-full flex-col items-center justify-center gap-8 md:w-[410px]">
+          <div className="flex w-full flex-col items-center justify-center gap-8 lg:w-[410px]">
             <h3 className="text-xl font-semibold">Login to your Account</h3>
             <div className="flex w-full flex-col gap-4">
               <div className="space-y-1">
